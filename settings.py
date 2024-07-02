@@ -1,7 +1,7 @@
 # config zwift
 username = 'miertink.vix@hotmail.com'
 password = 'U9ZY9ohp'
-player_id = 274375
+player_id = 645915
 # player_id = 5097474
 #check https://zwiftinsider.com/find-zwift-id/
 
