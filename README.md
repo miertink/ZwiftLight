@@ -34,11 +34,11 @@ My current setup uses the BL602-based controller, and below is an illustration s
 
     pip install -r requirements.txt
 
-   - Update the settings.py file with your ZWIFT credentials, MQTT broker configuration, and the MQTT topics matching your LED controller device setup.
-   - After configuring everything, just start *run.py* and you're ready to ride!
+   - Update the _settings.py_ file with your ZWIFT credentials, MQTT broker configuration, and the MQTT topics matching your LED controller device setup.
+   - After configuring everything, just start _run.py_ and you're ready to ride!
 
 > [!TIP]
-> I have added the following code to /etc/rc.local on my Raspberry Pi to automatically start ZwiftLight upon boot:
+> I have added the following code to /_etc/rc.local_ on my Raspberry Pi to automatically start ZwiftLight upon boot:
 
 ```
 # ZwiftLight
