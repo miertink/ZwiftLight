@@ -4,6 +4,8 @@
 
 There are already several code repositories available on GitHub that retrieve ZWIFT real-time user data and control devices like fans and lights. I’ve reused and enhanced some of these to create a version tailored specifically to my needs.
 
+My goal was to create a python script that could connect to ZWIFT, capture real-time data from my profile, send commands via MQTT to the RBG controller of my led strip and change its color depending on the power generated during my cycling workouts.
+
 I recommend this project for individuals with some experience in Python, firmware flashing, networking, electronic and working with devices like ESP8266. Several configurations across different aspects are required, so a basic understanding in these areas will be helpful.
 
 The color profile I’ve chosen closely matches the one ZWIFT uses in their power zone graphs.
@@ -47,7 +49,7 @@ My current setup uses the BL602-based controller, and below is an illustration s
     
    - The python code first connects to your MQTT broker.
    - It then connects to ZWIFT using 'zwift-client' API, retrieves your FTP (Functional Threshold Power) from your profile, and calculates your power zones.
-   - Once you start riding in Watopia, the API requests your real-time data every 4 deconds and begins publishing MQTT data to the RGB controller. The led light switches on and changes colors according to your current riding power output.
+   - Once you start riding in Watopia, the API requests your real-time data every 4 seconds and begins publishing MQTT data to the RGB controller. The led light switches on and changes colors according to your current riding power output.
 
 Unfortunately, there will always be a small delay between your riding power and the corresponding RGB color change. This is due to ZWIFT’s API limitations, which restrict the request rate (4-5 sec).
 
