@@ -8,6 +8,8 @@ I recommend this project for individuals with some experience in Python, firmwar
 
 The color profile I’ve chosen closely matches the one ZWIFT uses in their power zone graphs.
 
+**Ride On !!**
+
 ## Requirements:
 
    - ZWIFT subscription
@@ -49,10 +51,18 @@ My current setup uses the BL602-based controller, and below is an illustration s
 
 Unfortunately, there will always be a small delay between your riding power and the corresponding RGB color change. This is due to ZWIFT’s API limitations, which restrict the request rate (4-5 sec).
 
-## Ride On !!
 
-
+## Contributors
 
 Big thanks to @jsmits who wrote the zwift-client IPA.
 
 https://github.com/jsmits/zwift-client
+
+
+## Disclaimer
+
+Zwift is a trademark of Zwift, Inc., which is not affiliated with the maker of
+this project and does not endorse this project.
+
+All product and company names are trademarks of their respective holders. Use of
+them does not imply any affiliation with or endorsement by them.
