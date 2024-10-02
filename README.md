@@ -23,7 +23,7 @@ Initially, these MAGICHOME controllers had the ESP8266 chip, but recently, they 
 
 My current setup uses the BL602-based controller, and below is an illustration showing the minimal configuration required to connect the controller to MQTT, as well as the configuration of the RGB module for the LED strip.
 
-![tasmota_setup.gif](https://raw.githubusercontent.com/miertink/ZwiftLight/master/icons/tasmota_setup.gif)
+![tasmota_setup.gif](/icons/tasmota_setup.gif)
 
 ## How to Install:
 
