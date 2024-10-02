@@ -8,6 +8,8 @@ I recommend this project for individuals with some experience in Python, firmwar
 
 The color profile I’ve chosen closely matches the one ZWIFT uses in their power zone graphs.
 
+**Ride On !!**
+
 ## Requirements:
 
    - ZWIFT subscription
@@ -20,6 +22,8 @@ I personally use a MAGICHOME controller, available on Aliexpress or similar shop
 Initially, these MAGICHOME controllers had the ESP8266 chip, but recently, they have switched to the BL602 chip, more information can be found on the following link: https://github.com/esphome/feature-requests/issues/1049
 
 My current setup uses the BL602-based controller, and below is an illustration showing the minimal configuration required to connect the controller to MQTT, as well as the configuration of the RGB module for the LED strip.
+
+![tasmota_setup.gif](https://raw.githubusercontent.com/miertink/ZwiftLight/master/icons/tasmota_setup.gif)
 
 ## How to Install:
 
@@ -47,10 +51,18 @@ My current setup uses the BL602-based controller, and below is an illustration s
 
 Unfortunately, there will always be a small delay between your riding power and the corresponding RGB color change. This is due to ZWIFT’s API limitations, which restrict the request rate (4-5 sec).
 
-## Ride On !!
 
-
+## Contributors
 
 Big thanks to @jsmits who wrote the zwift-client IPA.
 
 https://github.com/jsmits/zwift-client
+
+
+## Disclaimer
+
+Zwift is a trademark of Zwift, Inc., which is not affiliated with the maker of
+this project and does not endorse this project.
+
+All product and company names are trademarks of their respective holders. Use of
+them does not imply any affiliation with or endorsement by them.
